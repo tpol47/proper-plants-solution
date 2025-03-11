@@ -11,15 +11,6 @@ remove an item from the cart altogether.
 A [live demo of the finished project](https://proper-plants.netlify.app/) is available for
 you to reference.
 
-## Getting Started
-
-This is a pair-programming assignment that _will_ be submitted!
-
-1. One person should create a new repository under their GitHub account using this one as a template.
-2. Add the other teammates as collaborators to that repository.
-3. All team members should clone the repository down.
-4. Decide amongst yourselves how to split up the work.
-
 ## Requirements
 
 You'll be building this project from scratch! You are highly encouraged to reference previous solutions.
@@ -31,15 +22,13 @@ Your submission should meet the following requirements.
    necessary, but the intention here is to get practice with importing and exporting
    components.
 2. Folders are used to organize related components and files.
-3. The commit history of the repository contains commits made by each member of the team.
-4. Feature branches and pull requests are used to organize work done by each member.
 
 ### App
 
-5. The cart is managed as a state variable in `<App>`.
-6. Functions to add items to or remove items from the cart are defined in `<App>`.
+3. The cart is managed as a state variable in `<App>`.
+4. Functions to add items to or remove items from the cart are defined in `<App>`.
    These functions should update the cart in state.
-7. The cart array in state is updated by using array methods such as `map` and `filter`
+5. The cart array in state is updated by using array methods such as `map` and `filter`
    to avoid direct array mutation.
 
 > [!WARNING]
@@ -53,22 +42,22 @@ Your submission should meet the following requirements.
 
 A hard-coded array of plants has already been provided for you in `src/data.js`.
 
-8. Users can see the image and name of every plant in that array of plants.
+6. Users can see the image and name of every plant in that array of plants.
    - The image is just an emoji character!
-9. Each plant has an "Add to cart" button.
+7. Each plant has an "Add to cart" button.
    - If the plant is already in the cart, the button will increase its quantity by 1.
    - If the plant is not in the cart, the button will add it to the cart with a quantity of 1.
-10. This code is organized into _at least_ two separate components.
+8. This code is organized into _at least_ two separate components.
 
 ### Cart
 
-11. The cart renders a cart item for each plant the user has added.
-12. Each cart item shows the image and name of the plant.
-13. Each cart item shows the quantity of the plant.
-14. Each cart item has two buttons. One button decrements the quantity,
+9. The cart renders a cart item for each plant the user has added.
+10. Each cart item shows the image and name of the plant.
+11. Each cart item shows the quantity of the plant.
+12. Each cart item has two buttons. One button decrements the quantity,
     and the other increments it.
-15. If the quantity of a cart item is ever 0 or below, that item is removed from the cart.
-16. This code is organized into _at least_ two separate components.
+13. If the quantity of a cart item is ever 0 or below, that item is removed from the cart.
+14. This code is organized into _at least_ two separate components.
 
 ## Submission
 
